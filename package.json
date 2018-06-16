@@ -9,7 +9,9 @@
   "files": [
     "lib"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "immutability-helper": "^2.7.0"
+  },
   "devDependencies": {
     "coffee-script": "^1.7.1",
     "mocha": "^9.0.2",
