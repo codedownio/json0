@@ -6,7 +6,9 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "immutability-helper": "^2.7.0"
+  },
   "devDependencies": {
     "ot-fuzzer": "^1.0.0",
     "mocha": "^1.20.1",
