@@ -1,6 +1,6 @@
 {
   "name": "ot-json0",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "JSON OT type",
   "main": "lib/index.js",
   "directories": {
@@ -9,13 +9,14 @@
   "files": [
     "lib"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "immutability-helper": "^2.7.0"
   },
   "devDependencies": {
-    "coffee-script": "^1.7.1",
+    "immutability-helper": "^2.7.0",
+    "ot-fuzzer": "^1.0.0",
     "mocha": "^9.0.2",
-    "ot-fuzzer": "^1.0.0"
+    "coffee-script": "^1.7.1"
   },
   "scripts": {
     "test": "mocha --require 'coffee-script/register' 'test/**'"
