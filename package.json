@@ -1,6 +1,6 @@
 {
   "name": "@codedown/ot-json0",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "description": "JSON OT type",
   "main": "lib/index.js",
   "directories": {
@@ -10,12 +10,12 @@
     "lib"
   ],
   "peerDependencies": {
-    "immutability-helper": "^2.7.0"
+    "immutability-helper": "^3.1.1"
   },
   "devDependencies": {
-    "immutability-helper": "^2.7.0",
+    "immutability-helper": "^3.1.1",
     "ot-fuzzer": "^1.0.0",
-    "mocha": "^9.0.2",
+    "mocha": "^10.2.0",
     "coffee-script": "^1.7.1"
   },
   "scripts": {
