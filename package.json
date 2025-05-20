@@ -1,6 +1,6 @@
 {
   "name": "@codedown/ot-json0",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "JSON OT type",
   "main": "lib/index.js",
   "directories": {
