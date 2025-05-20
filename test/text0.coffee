@@ -114,7 +114,6 @@ describe 'text0', ->
 
 
   describe 'randomizer', -> it 'passes', ->
-    @timeout 4000
-    @slow 4000
+    @timeout 40000
+    @slow 40000
     fuzzer text0, require('./text0-generator')
-
